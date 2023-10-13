@@ -145,13 +145,13 @@ h3 {
     color: var(--NAVY-BLUE);
 }
 
-.solutions-list {
+.solutions {
     display: flex;
     gap: 24px;
     margin-bottom: 120px;
 }
 
-.solutions-list-icons {
+.solutions-icons {
     background-color: var(--CLOUD);
     text-align: center;
     display: flex;
@@ -201,11 +201,12 @@ h2 {
 .team-socials {
     display: flex;
     justify-content: space-around;
+    padding: 32px 0;
 }
 
 .team-socials-icons {
     background-color: var(--IRIS);
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
     fill: var(--CLOUD);
 }
