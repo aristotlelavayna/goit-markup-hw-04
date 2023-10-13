@@ -150,6 +150,14 @@ h3 {
     gap: 24px;
     margin-bottom: 120px;
 }
+
+.solutions-list div {
+    background-color: var(--CLOUD);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
 /* end of solutions-list class */
 
 /* works-list start */
