@@ -98,12 +98,14 @@ body {
     font-family: "Roboto";
 }
 
-/* order-service class start */
+/* hero section start */
 .hero {
-    background-image: url("../images/people-office\ 1.jpg");
     text-align: center; 
     margin-bottom: 120px;
     padding: 188px 472px 292px;
+    background-image: url("../images/people-office\ 1.jpg");
+    background-repeat: no-repeat;
+    
 }
 
 h1 {
@@ -139,7 +141,7 @@ h1 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE)
 }
-/* end of order-service class */ 
+/* end of hero section */ 
 
 /* advantages section start */
 h3 {
