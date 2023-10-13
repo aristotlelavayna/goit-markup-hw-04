@@ -160,7 +160,7 @@ h3 {
 }
 /* end of solutions-list class */
 
-/* works-list start */
+/* works section start */
 .works-list {
     display: flex;
     gap: 24px;
@@ -180,8 +180,9 @@ h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-/* end of works-list */
+/* end of works section */
 
+/* team section start */
 .team-list {
     display: flex;
     gap: 24px;
@@ -197,6 +198,18 @@ h2 {
     margin-bottom: 120px;
 }
 
+.team-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-socials-icons {
+    background-color: var(--IRIS);
+    padding: 15px;
+    border-radius: 50%;
+    fill: var(--CLOUD);
+}
+/* end of team section */
 
 /* main-footer class start */
 .main-footer {
