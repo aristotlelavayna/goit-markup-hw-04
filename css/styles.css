@@ -151,12 +151,12 @@ h3 {
     margin-bottom: 120px;
 }
 
-.solutions-list div {
+.solutions-list-icons {
     background-color: var(--CLOUD);
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 24px 100px;
 }
 /* end of solutions-list class */
 
