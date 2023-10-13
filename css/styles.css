@@ -212,7 +212,21 @@ h2 {
 }
 /* end of team section */
 
-/* main-footer class start */
+/* customer section start */
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.clients {
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    padding: 16px 32px;
+}
+/* end of customer section */
+
+/* footer start */
 .main-footer {
     background-color: var(--NAVY-BLUE);
     padding-top: 101.5px;
@@ -240,7 +254,7 @@ h2 {
     line-height: 24px; 
     letter-spacing: 0.32px;
 }
-/* end of main-footer class */
+/* end of footer */
 
 /* PORTFOLIO PAGE!!! */
 
