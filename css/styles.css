@@ -62,7 +62,7 @@
     color: var(--OCEAN);
 }
 
-.menu-links{
+.menu-links {
     display: flex;
     gap: 40px;
 }
