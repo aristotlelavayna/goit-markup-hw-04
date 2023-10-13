@@ -99,8 +99,8 @@ body {
 }
 
 /* order-service class start */
-.order-service {
-    background-color: var(--NAVY-BLUE);
+.hero {
+    background-image: url("../images/people-office\ 1.jpg");
     text-align: center; 
     margin-bottom: 120px;
     padding: 188px 472px 292px;
@@ -280,10 +280,14 @@ h2 {
 .footer-links svg {
     fill: var(--WHITE);
     padding-left: 540px;
-    background-color: var(--IRIS);
     padding: 8px;
     border-radius: 50%;
     display: flex;
+    
+}
+
+.footer-links-icon a {
+    background-color: var(--IRIS);
 }
 
 .title {
