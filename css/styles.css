@@ -6,6 +6,7 @@
     --WHITE: #FFFFFF;
     --CLOUD: #F4F4FD;
     --OCEAN: #404BBF;
+    --LIGHT-SLATE: #8E8F99;
 }
 
 .container {
@@ -140,25 +141,25 @@ h1 {
 }
 /* end of order-service class */ 
 
-/* solutions-list start class */
+/* advantages section start */
 h3 {
     color: var(--NAVY-BLUE);
 }
 
-.solutions {
+.advantages {
     display: flex;
     gap: 24px;
     margin-bottom: 120px;
 }
 
-.solutions-icons {
+.advantages-icons {
     background-color: var(--CLOUD);
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 24px 100px;
 }
-/* end of solutions-list class */
+/* end of advantages section */
 
 /* works section start */
 .works-list {
@@ -223,6 +224,20 @@ h2 {
     border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     padding: 16px 32px;
+}
+
+.clients svg {
+    fill: var(--LIGHT-SLATE);
+}
+
+.clients:hover,
+.clients:focus {
+    border-color: var(--IRIS);
+}
+
+.clients svg:hover,
+.clients svg:focus {
+    fill: var(--IRIS)
 }
 /* end of customer section */
 
