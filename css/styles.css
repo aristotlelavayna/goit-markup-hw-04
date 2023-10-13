@@ -271,9 +271,19 @@ h2 {
     letter-spacing: 0.32px;
 }
 
-.footer-links {
+.footer-links ul {
     display: flex;
     align-items: center;
+    gap: 16px;
+}
+
+.footer-links svg {
+    fill: var(--WHITE);
+    padding-left: 540px;
+    background-color: var(--IRIS);
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
 }
 
 .title {
