@@ -295,6 +295,7 @@ h2 {
 .title {
     color: var(--WHITE);
     padding-left: 155px;
+    margin-top: 0px;
 }
 /* end of footer */
 
